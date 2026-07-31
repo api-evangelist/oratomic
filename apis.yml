@@ -1,8 +1,12 @@
 aid: oratomic
 name: Oratomic
-description: 'Oratomic is a company surfaced as a portfolio company of bain-capital-ventures, general-catalyst,
-  index-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai-infrastructure.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Oratomic is a Pasadena, California quantum computing company where leading researchers
+  from Caltech and Harvard are building utility-scale, fault-tolerant quantum computers with neutral
+  atoms and optical systems. Launched from stealth in March 2026, the company advances quantum error
+  correction with the aim of making practical, cryptographically relevant quantum computation possible
+  with far fewer qubits than previously believed (on the order of ~10,000 reconfigurable atomic qubits
+  rather than millions). Oratomic is a deep-tech hardware and research organization; at this time it
+  publishes no public API, developer portal, SDK, or programmatic access surface.'
 url: https://raw.githubusercontent.com/api-evangelist/oratomic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +16,31 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.oratomic.com/ogimg.png
 tags:
 - Company
 - Ai Infrastructure
+- Quantum Computing
+- Neutral Atoms
+- Fault Tolerant
+- Deep Tech
+- Hardware
+- Research
+- Error Correction
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +50,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.oratomic.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
